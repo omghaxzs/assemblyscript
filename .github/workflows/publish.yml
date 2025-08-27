@@ -8,7 +8,7 @@ on:
 jobs:
   release:
     name: Packages
-    if: github.repository == 'AssemblyScript/assemblyscript'
+    if: github.repository == 'omghaxzs/assemblyscript'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -54,11 +54,11 @@ jobs:
         fi
         cd lib/loader
         if [ $(node -pe "require('./package.json').version") != "0.0.0" ]; then
-          npm publish --access public
+          npm publish
         fi
         cd ../rtrace
         if [ $(node -pe "require('./package.json').version") != "0.0.0" ]; then
-          npm publish --access public
+          npm publish
         fi
         cd ../..
         node ./scripts/prepublish --reset
