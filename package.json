@@ -14,10 +14,10 @@
   "homepage": "https://assemblyscript.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AssemblyScript/assemblyscript.git"
+    "url": "https://github.com/omghaxzs/assemblyscript.git"
   },
   "bugs": {
-    "url": "https://github.com/AssemblyScript/assemblyscript/issues"
+    "url": "https://github.com/omghaxzs/assemblyscript/issues"
   },
   "engines": {
     "node": ">=20",
